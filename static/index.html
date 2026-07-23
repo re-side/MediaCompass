@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Медиа-компас</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <h1>Медиа-компас</h1>
+      <p>Рекомендации фильмов, игр, книг и настольных игр</p>
+    </div>
+    <div class="status" id="server-status">Проверка сервера...</div>
+  </header>
+
+  <main class="app-shell">
+    <aside class="sidebar">
+      <section>
+        <div class="section-heading">
+          <h2>Мои предпочтения</h2>
+          <button class="button-link" id="clear-liked" type="button">Очистить</button>
+        </div>
+        <div class="liked-list" id="liked-list">
+          <div class="empty-small">Добавьте минимум один понравившийся объект</div>
+        </div>
+      </section>
+
+      <section class="filters">
+        <h2>Настройки выдачи</h2>
+        <label>
+          Тип контента
+          <select id="result-type">
+            <option value="all">Все категории</option>
+            <option value="movie">Фильмы</option>
+            <option value="game">Компьютерные игры</option>
+            <option value="book">Книги</option>
+            <option value="board_game">Настольные игры</option>
+          </select>
+        </label>
+        <label>
+          Минимальный рейтинг
+          <input id="min-rating" type="range" min="0" max="9" step="0.5" value="7">
+          <span class="range-value" id="rating-value">7.0</span>
+        </label>
+        <button class="button-primary" id="recommend-button" type="button" disabled>Подобрать рекомендации</button>
+      </section>
+
+      <section class="algorithm-note">
+        <h2>Как считается результат</h2>
+        <p>72% похожесть по TF-IDF, 18% рейтинг, 10% популярность.</p>
+      </section>
+    </aside>
+
+    <div class="workspace">
+      <section class="search-panel">
+        <div class="search-row">
+          <input id="local-search" type="search" placeholder="Название, жанр или тема" autocomplete="off">
+          <select id="catalog-type" aria-label="Категория каталога">
+            <option value="all">Все</option>
+            <option value="movie">Фильмы</option>
+            <option value="game">Игры</option>
+            <option value="book">Книги</option>
+            <option value="board_game">Настолки</option>
+          </select>
+        </div>
+        <div class="tabs" role="tablist" aria-label="Источник поиска">
+          <button class="tab active" data-mode="catalog" type="button">Учебный каталог</button>
+          <button class="tab" data-mode="external" type="button">Внешние источники</button>
+        </div>
+      </section>
+
+      <section id="catalog-view">
+        <div class="section-heading main-heading">
+          <div>
+            <h2>Каталог</h2>
+            <p id="catalog-count"></p>
+          </div>
+        </div>
+        <div class="media-grid" id="catalog-grid"></div>
+      </section>
+
+      <section id="external-view" hidden>
+        <div class="external-controls">
+          <select id="external-source">
+            <option value="openlibrary">Книги: Open Library</option>
+            <option value="steam">Игры и цены: Steam Store</option>
+            <option value="wikipedia">Фильмы: Wikipedia API</option>
+          </select>
+          <input id="external-query" type="search" placeholder="Введите название">
+          <button class="button-secondary" id="external-search" type="button">Найти</button>
+        </div>
+        <div class="notice" id="external-notice">Найденные здесь объекты пополняют общий пул рекомендаций. При отсутствии сети локальный каталог продолжит работать.</div>
+        <p class="pool-count" id="external-pool-count">Внешних кандидатов в текущей сессии: 0</p>
+        <div class="media-grid" id="external-grid"></div>
+      </section>
+
+      <section class="results" id="results-section" hidden>
+        <div class="section-heading main-heading">
+          <div>
+            <h2>Рекомендации</h2>
+            <p id="results-summary"></p>
+          </div>
+          <button class="button-secondary" id="export-button" type="button">Экспорт CSV</button>
+        </div>
+        <div class="media-grid results-grid" id="results-grid"></div>
+      </section>
+    </div>
+  </main>
+
+  <template id="card-template">
+    <article class="media-card">
+      <div class="cover-wrap">
+        <img class="cover" alt="" loading="lazy">
+        <span class="type-badge"></span>
+        <span class="score-badge" hidden></span>
+      </div>
+      <div class="card-body">
+        <div class="title-row">
+          <h3></h3>
+          <span class="year"></span>
+        </div>
+        <div class="rating"></div>
+        <p class="description"></p>
+        <div class="tags"></div>
+        <ul class="reasons"></ul>
+        <div class="price"></div>
+        <div class="card-actions">
+          <button class="button-add" type="button">Добавить</button>
+          <a class="source-link" target="_blank" rel="noopener noreferrer">Источник</a>
+        </div>
+      </div>
+    </article>
+  </template>
+
+  <script src="/app.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,450 @@
+[
+  {
+    "id": "movie_interstellar",
+    "type": "movie",
+    "title": "Интерстеллар",
+    "year": 2014,
+    "description": "Экспедиция исследователей отправляется через космический тоннель, чтобы найти новый дом для человечества.",
+    "genres": ["научная фантастика", "драма", "приключения"],
+    "tags": ["космос", "исследование", "выживание", "семья", "время"],
+    "rating": 8.7,
+    "popularity": 0.98,
+    "source": "local",
+    "source_url": "https://www.imdb.com/title/tt0816692/",
+    "image_url": ""
+  },
+  {
+    "id": "movie_dune",
+    "type": "movie",
+    "title": "Дюна",
+    "year": 2021,
+    "description": "Наследник великого дома оказывается в центре борьбы за пустынную планету и редчайший ресурс.",
+    "genres": ["научная фантастика", "драма", "приключения"],
+    "tags": ["пустыня", "политика", "эпическое", "космос", "пророчество"],
+    "rating": 8.0,
+    "popularity": 0.96,
+    "source": "local",
+    "source_url": "https://www.imdb.com/title/tt1160419/",
+    "image_url": ""
+  },
+  {
+    "id": "movie_inception",
+    "type": "movie",
+    "title": "Начало",
+    "year": 2010,
+    "description": "Команда специалистов проникает в сны людей и пытается внедрить идею в сознание цели.",
+    "genres": ["научная фантастика", "триллер", "боевик"],
+    "tags": ["сны", "ограбление", "головоломка", "время", "психология"],
+    "rating": 8.8,
+    "popularity": 0.99,
+    "source": "local",
+    "source_url": "https://www.imdb.com/title/tt1375666/",
+    "image_url": ""
+  },
+  {
+    "id": "movie_lotr",
+    "type": "movie",
+    "title": "Властелин колец: Братство Кольца",
+    "year": 2001,
+    "description": "Группа героев отправляется в опасное путешествие, чтобы уничтожить могущественное кольцо.",
+    "genres": ["фэнтези", "приключения", "драма"],
+    "tags": ["эпическое", "дружба", "путешествие", "магия", "средневековье"],
+    "rating": 8.8,
+    "popularity": 0.99,
+    "source": "local",
+    "source_url": "https://www.imdb.com/title/tt0120737/",
+    "image_url": ""
+  },
+  {
+    "id": "movie_blade_runner",
+    "type": "movie",
+    "title": "Бегущий по лезвию 2049",
+    "year": 2017,
+    "description": "Офицер полиции раскрывает тайну, способную изменить отношения людей и искусственных существ.",
+    "genres": ["научная фантастика", "триллер", "драма"],
+    "tags": ["киберпанк", "детектив", "технологии", "нуар", "атмосфера"],
+    "rating": 8.0,
+    "popularity": 0.90,
+    "source": "local",
+    "source_url": "https://www.imdb.com/title/tt1856101/",
+    "image_url": ""
+  },
+  {
+    "id": "game_witcher3",
+    "type": "game",
+    "title": "The Witcher 3: Wild Hunt",
+    "year": 2015,
+    "description": "Ролевая игра об охотнике на чудовищ в большом открытом мире с нелинейным сюжетом.",
+    "genres": ["фэнтези", "ролевая игра", "приключения"],
+    "tags": ["открытый мир", "сюжет", "выбор", "магия", "средневековье"],
+    "rating": 9.3,
+    "popularity": 0.99,
+    "source": "Steam",
+    "source_url": "https://store.steampowered.com/app/292030/",
+    "image_url": "https://cdn.akamai.steamstatic.com/steam/apps/292030/header.jpg"
+  },
+  {
+    "id": "game_cyberpunk",
+    "type": "game",
+    "title": "Cyberpunk 2077",
+    "year": 2020,
+    "description": "Ролевая игра в технологичном мегаполисе будущего с открытым миром и сюжетными выборами.",
+    "genres": ["научная фантастика", "ролевая игра", "боевик"],
+    "tags": ["киберпанк", "технологии", "открытый мир", "сюжет", "нуар"],
+    "rating": 8.5,
+    "popularity": 0.98,
+    "source": "Steam",
+    "source_url": "https://store.steampowered.com/app/1091500/",
+    "image_url": "https://cdn.akamai.steamstatic.com/steam/apps/1091500/header.jpg"
+  },
+  {
+    "id": "game_outer_wilds",
+    "type": "game",
+    "title": "Outer Wilds",
+    "year": 2019,
+    "description": "Исследователь космоса раскрывает тайну маленькой солнечной системы, застрявшей во временной петле.",
+    "genres": ["научная фантастика", "приключения", "головоломка"],
+    "tags": ["космос", "исследование", "тайна", "время", "атмосфера"],
+    "rating": 9.0,
+    "popularity": 0.87,
+    "source": "Steam",
+    "source_url": "https://store.steampowered.com/app/753640/",
+    "image_url": "https://cdn.akamai.steamstatic.com/steam/apps/753640/header.jpg"
+  },
+  {
+    "id": "game_baldurs_gate3",
+    "type": "game",
+    "title": "Baldur's Gate 3",
+    "year": 2023,
+    "description": "Партийная ролевая игра с пошаговыми боями, свободой выбора и совместным прохождением.",
+    "genres": ["фэнтези", "ролевая игра", "стратегия"],
+    "tags": ["сюжет", "выбор", "магия", "команда", "пошаговое"],
+    "rating": 9.6,
+    "popularity": 0.99,
+    "source": "Steam",
+    "source_url": "https://store.steampowered.com/app/1086940/",
+    "image_url": "https://cdn.akamai.steamstatic.com/steam/apps/1086940/header.jpg"
+  },
+  {
+    "id": "game_disco_elysium",
+    "type": "game",
+    "title": "Disco Elysium",
+    "year": 2019,
+    "description": "Детективная ролевая игра с большим количеством диалогов, расследованием и трудными решениями.",
+    "genres": ["ролевая игра", "детектив", "драма"],
+    "tags": ["тайна", "выбор", "диалоги", "политика", "нуар"],
+    "rating": 9.2,
+    "popularity": 0.90,
+    "source": "Steam",
+    "source_url": "https://store.steampowered.com/app/632470/",
+    "image_url": "https://cdn.akamai.steamstatic.com/steam/apps/632470/header.jpg"
+  },
+  {
+    "id": "book_dune",
+    "type": "book",
+    "title": "Дюна",
+    "year": 1965,
+    "description": "Роман о борьбе великих домов за пустынную планету, власть и контроль над уникальным ресурсом.",
+    "genres": ["научная фантастика", "приключения", "драма"],
+    "tags": ["пустыня", "политика", "эпическое", "космос", "пророчество"],
+    "rating": 8.9,
+    "popularity": 0.97,
+    "source": "Open Library",
+    "source_url": "https://openlibrary.org/isbn/9780441172719",
+    "image_url": "https://covers.openlibrary.org/b/isbn/9780441172719-L.jpg"
+  },
+  {
+    "id": "book_roadside_picnic",
+    "type": "book",
+    "title": "Пикник на обочине",
+    "year": 1972,
+    "description": "Сталкер проникает в загадочную Зону, оставшуюся после необъяснимого события.",
+    "genres": ["научная фантастика", "драма", "приключения"],
+    "tags": ["зона", "тайна", "исследование", "философия", "опасность"],
+    "rating": 8.6,
+    "popularity": 0.88,
+    "source": "Open Library",
+    "source_url": "https://openlibrary.org/isbn/9780575079786",
+    "image_url": "https://covers.openlibrary.org/b/isbn/9780575079786-L.jpg"
+  },
+  {
+    "id": "book_martian",
+    "type": "book",
+    "title": "Марсианин",
+    "year": 2011,
+    "description": "Инженер остается один на Марсе и использует знания, юмор и упорство, чтобы выжить.",
+    "genres": ["научная фантастика", "приключения"],
+    "tags": ["космос", "выживание", "технологии", "исследование", "юмор"],
+    "rating": 8.8,
+    "popularity": 0.93,
+    "source": "Open Library",
+    "source_url": "https://openlibrary.org/isbn/9780553418026",
+    "image_url": "https://covers.openlibrary.org/b/isbn/9780553418026-L.jpg"
+  },
+  {
+    "id": "book_neuromancer",
+    "type": "book",
+    "title": "Нейромант",
+    "year": 1984,
+    "description": "Хакер получает опасное задание в мире корпораций, виртуальной реальности и искусственного интеллекта.",
+    "genres": ["научная фантастика", "триллер"],
+    "tags": ["киберпанк", "технологии", "нуар", "искусственный интеллект", "сеть"],
+    "rating": 8.2,
+    "popularity": 0.86,
+    "source": "Open Library",
+    "source_url": "https://openlibrary.org/isbn/9780441569595",
+    "image_url": "https://covers.openlibrary.org/b/isbn/9780441569595-L.jpg"
+  },
+  {
+    "id": "book_lotr",
+    "type": "book",
+    "title": "Властелин колец",
+    "year": 1954,
+    "description": "Эпическая история о путешествии, дружбе и борьбе народов Средиземья против темной силы.",
+    "genres": ["фэнтези", "приключения", "драма"],
+    "tags": ["эпическое", "дружба", "путешествие", "магия", "средневековье"],
+    "rating": 9.4,
+    "popularity": 0.99,
+    "source": "Open Library",
+    "source_url": "https://openlibrary.org/isbn/9780544003415",
+    "image_url": "https://covers.openlibrary.org/b/isbn/9780544003415-L.jpg"
+  },
+  {
+    "id": "board_terraforming_mars",
+    "type": "board_game",
+    "title": "Terraforming Mars",
+    "year": 2016,
+    "description": "Стратегическая настольная игра о развитии корпорации и превращении Марса в пригодную для жизни планету.",
+    "genres": ["научная фантастика", "стратегия"],
+    "tags": ["космос", "технологии", "развитие", "экономика", "engine building"],
+    "rating": 8.4,
+    "popularity": 0.95,
+    "source": "BoardGameGeek",
+    "source_url": "https://boardgamegeek.com/boardgame/167791/terraforming-mars",
+    "image_url": ""
+  },
+  {
+    "id": "board_dune_imperium",
+    "type": "board_game",
+    "title": "Dune: Imperium",
+    "year": 2020,
+    "description": "Стратегия о борьбе домов за влияние на Арракисе, сочетающая выставление рабочих и построение колоды.",
+    "genres": ["научная фантастика", "стратегия"],
+    "tags": ["пустыня", "политика", "космос", "deck building", "конфликт"],
+    "rating": 8.5,
+    "popularity": 0.93,
+    "source": "BoardGameGeek",
+    "source_url": "https://boardgamegeek.com/boardgame/316554/dune-imperium",
+    "image_url": ""
+  },
+  {
+    "id": "board_gloomhaven",
+    "type": "board_game",
+    "title": "Gloomhaven",
+    "year": 2017,
+    "description": "Кооперативная тактическая игра с кампанией, развитием героев и исследованием подземелий.",
+    "genres": ["фэнтези", "стратегия", "приключения"],
+    "tags": ["команда", "кампания", "тактика", "магия", "пошаговое"],
+    "rating": 8.6,
+    "popularity": 0.96,
+    "source": "BoardGameGeek",
+    "source_url": "https://boardgamegeek.com/boardgame/174430/gloomhaven",
+    "image_url": ""
+  },
+  {
+    "id": "board_arkham_horror",
+    "type": "board_game",
+    "title": "Arkham Horror: The Card Game",
+    "year": 2016,
+    "description": "Кооперативное расследование сверхъестественных происшествий с развитием колоды и сюжета.",
+    "genres": ["детектив", "приключения", "хоррор"],
+    "tags": ["тайна", "расследование", "команда", "сюжет", "deck building"],
+    "rating": 8.1,
+    "popularity": 0.91,
+    "source": "BoardGameGeek",
+    "source_url": "https://boardgamegeek.com/boardgame/205637/arkham-horror-the-card-game",
+    "image_url": ""
+  },
+  {
+    "id": "board_scythe",
+    "type": "board_game",
+    "title": "Scythe",
+    "year": 2016,
+    "description": "Стратегия об альтернативной Европе, где фракции развивают экономику и борются за территории.",
+    "genres": ["стратегия", "научная фантастика"],
+    "tags": ["политика", "экономика", "технологии", "территория", "engine building"],
+    "rating": 8.2,
+    "popularity": 0.94,
+    "source": "BoardGameGeek",
+    "source_url": "https://boardgamegeek.com/boardgame/169786/scythe",
+    "image_url": ""
+  },
+  {
+    "id": "movie_matrix", "type": "movie", "title": "Матрица", "year": 1999,
+    "description": "Программист узнает, что привычный мир является виртуальной системой, и присоединяется к сопротивлению.",
+    "genres": ["научная фантастика", "боевик"], "tags": ["киберпанк", "технологии", "искусственный интеллект", "философия", "выбор"],
+    "rating": 8.7, "popularity": 0.99, "source": "local", "source_url": "https://www.imdb.com/title/tt0133093/", "image_url": ""
+  },
+  {
+    "id": "movie_arrival", "type": "movie", "title": "Прибытие", "year": 2016,
+    "description": "Лингвист пытается установить контакт с внеземной цивилизацией и понять её необычное восприятие времени.",
+    "genres": ["научная фантастика", "драма"], "tags": ["космос", "контакт", "язык", "время", "философия"],
+    "rating": 7.9, "popularity": 0.91, "source": "local", "source_url": "https://www.imdb.com/title/tt2543164/", "image_url": ""
+  },
+  {
+    "id": "movie_shutter_island", "type": "movie", "title": "Остров проклятых", "year": 2010,
+    "description": "Судебный пристав расследует исчезновение пациентки закрытой психиатрической больницы на острове.",
+    "genres": ["триллер", "детектив", "драма"], "tags": ["тайна", "расследование", "психология", "остров", "неожиданный финал"],
+    "rating": 8.2, "popularity": 0.94, "source": "local", "source_url": "https://www.imdb.com/title/tt1130884/", "image_url": ""
+  },
+  {
+    "id": "movie_mad_max", "type": "movie", "title": "Безумный Макс: Дорога ярости", "year": 2015,
+    "description": "Беглецы пересекают постапокалиптическую пустыню на боевых машинах, спасаясь от армии тирана.",
+    "genres": ["боевик", "научная фантастика", "приключения"], "tags": ["пустыня", "погоня", "выживание", "антиутопия", "техника"],
+    "rating": 8.1, "popularity": 0.93, "source": "local", "source_url": "https://www.imdb.com/title/tt1392190/", "image_url": ""
+  },
+  {
+    "id": "movie_green_mile", "type": "movie", "title": "Зелёная миля", "year": 1999,
+    "description": "Начальник тюремного блока знакомится с заключённым, обладающим необъяснимым даром.",
+    "genres": ["драма", "фэнтези"], "tags": ["тюрьма", "чудо", "доброта", "трагедия", "мораль"],
+    "rating": 9.1, "popularity": 0.98, "source": "local", "source_url": "https://www.imdb.com/title/tt0120689/", "image_url": ""
+  },
+  {
+    "id": "movie_grand_budapest", "type": "movie", "title": "Отель «Гранд Будапешт»", "year": 2014,
+    "description": "Консьерж и его помощник оказываются участниками истории с наследством, картиной и погонями.",
+    "genres": ["комедия", "приключения", "драма"], "tags": ["отель", "дружба", "детектив", "юмор", "стилизация"],
+    "rating": 8.1, "popularity": 0.88, "source": "local", "source_url": "https://www.imdb.com/title/tt2278388/", "image_url": ""
+  },
+  {
+    "id": "movie_alien", "type": "movie", "title": "Чужой", "year": 1979,
+    "description": "Экипаж космического корабля сталкивается с опасной внеземной формой жизни.",
+    "genres": ["научная фантастика", "ужасы", "триллер"], "tags": ["космос", "выживание", "монстр", "изоляция", "атмосфера"],
+    "rating": 8.5, "popularity": 0.96, "source": "local", "source_url": "https://www.imdb.com/title/tt0078748/", "image_url": ""
+  },
+  {
+    "id": "game_portal2", "type": "game", "title": "Portal 2", "year": 2011,
+    "description": "Головоломка о прохождении лабораторий с помощью порталов и взаимодействии с искусственным интеллектом.",
+    "genres": ["головоломка", "научная фантастика"], "tags": ["порталы", "юмор", "физика", "искусственный интеллект", "кооператив"],
+    "rating": 9.5, "popularity": 0.99, "source": "Steam", "source_url": "https://store.steampowered.com/app/620/", "image_url": ""
+  },
+  {
+    "id": "game_rdr2", "type": "game", "title": "Red Dead Redemption 2", "year": 2018,
+    "description": "Приключенческая игра о банде на закате эпохи Дикого Запада с большим открытым миром.",
+    "genres": ["приключения", "боевик", "драма"], "tags": ["открытый мир", "сюжет", "вестерн", "выбор", "исследование"],
+    "rating": 9.2, "popularity": 0.99, "source": "Steam", "source_url": "https://store.steampowered.com/app/1174180/", "image_url": ""
+  },
+  {
+    "id": "game_hades", "type": "game", "title": "Hades", "year": 2020,
+    "description": "Герой греческих мифов снова и снова пытается выбраться из подземного мира, становясь сильнее.",
+    "genres": ["боевик", "рогалик", "фэнтези"], "tags": ["мифология", "повторные прохождения", "сюжет", "динамика", "развитие"],
+    "rating": 9.3, "popularity": 0.95, "source": "Steam", "source_url": "https://store.steampowered.com/app/1145360/", "image_url": ""
+  },
+  {
+    "id": "game_civilization6", "type": "game", "title": "Sid Meier’s Civilization VI", "year": 2016,
+    "description": "Пошаговая стратегия о развитии государства от древности до космической эпохи.",
+    "genres": ["стратегия", "симулятор"], "tags": ["история", "экономика", "политика", "технологии", "пошаговое"],
+    "rating": 8.8, "popularity": 0.94, "source": "Steam", "source_url": "https://store.steampowered.com/app/289070/", "image_url": ""
+  },
+  {
+    "id": "game_subnautica", "type": "game", "title": "Subnautica", "year": 2018,
+    "description": "Исследователь выживает в океане чужой планеты, строит базу и раскрывает тайны мира.",
+    "genres": ["приключения", "выживание", "научная фантастика"], "tags": ["океан", "исследование", "строительство", "тайна", "открытый мир"],
+    "rating": 9.1, "popularity": 0.94, "source": "Steam", "source_url": "https://store.steampowered.com/app/264710/", "image_url": ""
+  },
+  {
+    "id": "game_hollow_knight", "type": "game", "title": "Hollow Knight", "year": 2017,
+    "description": "Исследование огромного подземного королевства с трудными боями и постепенно раскрываемой историей.",
+    "genres": ["приключения", "метроидвания", "фэнтези"], "tags": ["исследование", "атмосфера", "тайна", "сложность", "подземелье"],
+    "rating": 9.4, "popularity": 0.96, "source": "Steam", "source_url": "https://store.steampowered.com/app/367520/", "image_url": ""
+  },
+  {
+    "id": "game_mass_effect", "type": "game", "title": "Mass Effect Legendary Edition", "year": 2021,
+    "description": "Космическая ролевая трилогия о командире, собирающем союзников для борьбы с древней угрозой.",
+    "genres": ["ролевая игра", "научная фантастика", "боевик"], "tags": ["космос", "сюжет", "выбор", "команда", "исследование"],
+    "rating": 9.0, "popularity": 0.92, "source": "Steam", "source_url": "https://store.steampowered.com/app/1328670/", "image_url": ""
+  },
+  {
+    "id": "book_1984", "type": "book", "title": "1984", "year": 1949,
+    "description": "Человек пытается сохранить свободу мысли в государстве тотального наблюдения и контроля.",
+    "genres": ["антиутопия", "научная фантастика", "драма"], "tags": ["политика", "контроль", "общество", "свобода", "пропаганда"],
+    "rating": 9.0, "popularity": 0.99, "source": "Open Library", "source_url": "https://openlibrary.org/works/OL1168083W", "image_url": ""
+  },
+  {
+    "id": "book_foundation", "type": "book", "title": "Основание", "year": 1951,
+    "description": "Учёный создаёт проект сохранения знаний перед неизбежным распадом галактической империи.",
+    "genres": ["научная фантастика"], "tags": ["космос", "политика", "история", "общество", "прогнозирование"],
+    "rating": 8.7, "popularity": 0.91, "source": "Open Library", "source_url": "https://openlibrary.org/works/OL46125W", "image_url": ""
+  },
+  {
+    "id": "book_witcher", "type": "book", "title": "Последнее желание", "year": 1993,
+    "description": "Сборник историй о ведьмаке, который сталкивается с чудовищами, магией и трудными выборами.",
+    "genres": ["фэнтези", "приключения"], "tags": ["магия", "монстры", "мораль", "средневековье", "сюжет"],
+    "rating": 8.8, "popularity": 0.93, "source": "Open Library", "source_url": "https://openlibrary.org/works/OL257943W", "image_url": ""
+  },
+  {
+    "id": "book_hobbit", "type": "book", "title": "Хоббит, или Туда и обратно", "year": 1937,
+    "description": "Домосед отправляется с гномами в далёкое путешествие к горе, сокровищам и дракону.",
+    "genres": ["фэнтези", "приключения"], "tags": ["путешествие", "дружба", "магия", "дракон", "средневековье"],
+    "rating": 9.1, "popularity": 0.98, "source": "Open Library", "source_url": "https://openlibrary.org/works/OL262758W", "image_url": ""
+  },
+  {
+    "id": "book_three_body", "type": "book", "title": "Задача трёх тел", "year": 2008,
+    "description": "Учёные сталкиваются с загадочными событиями, связанными с первым контактом и иной цивилизацией.",
+    "genres": ["научная фантастика", "триллер"], "tags": ["космос", "контакт", "наука", "тайна", "общество"],
+    "rating": 8.5, "popularity": 0.91, "source": "Open Library", "source_url": "https://openlibrary.org/works/OL19621170W", "image_url": ""
+  },
+  {
+    "id": "book_metro2033", "type": "book", "title": "Метро 2033", "year": 2005,
+    "description": "После катастрофы люди выживают в московском метро, где станции стали отдельными сообществами.",
+    "genres": ["постапокалипсис", "научная фантастика", "приключения"], "tags": ["выживание", "метро", "опасность", "общество", "путешествие"],
+    "rating": 8.2, "popularity": 0.89, "source": "Open Library", "source_url": "https://openlibrary.org/works/OL17398347W", "image_url": ""
+  },
+  {
+    "id": "book_flowers_algernon", "type": "book", "title": "Цветы для Элджернона", "year": 1966,
+    "description": "Эксперимент резко повышает интеллект человека и заставляет его по-новому увидеть себя и окружающих.",
+    "genres": ["научная фантастика", "драма"], "tags": ["наука", "психология", "общество", "эксперимент", "трагедия"],
+    "rating": 9.1, "popularity": 0.95, "source": "Open Library", "source_url": "https://openlibrary.org/works/OL524410W", "image_url": ""
+  },
+  {
+    "id": "board_catan", "type": "board_game", "title": "Колонизаторы", "year": 1995,
+    "description": "Игроки осваивают остров, собирают ресурсы, торгуют и строят поселения.",
+    "genres": ["стратегия", "семейная игра"], "tags": ["ресурсы", "торговля", "развитие", "экономика", "соревнование"],
+    "rating": 7.1, "popularity": 0.99, "source": "BoardGameGeek", "source_url": "https://boardgamegeek.com/boardgame/13/catan", "image_url": ""
+  },
+  {
+    "id": "board_carcassonne", "type": "board_game", "title": "Каркассон", "year": 2000,
+    "description": "Участники выкладывают средневековую карту и размещают подданных на дорогах, полях и в городах.",
+    "genres": ["стратегия", "семейная игра"], "tags": ["территория", "средневековье", "развитие", "тактика", "соревнование"],
+    "rating": 7.4, "popularity": 0.97, "source": "BoardGameGeek", "source_url": "https://boardgamegeek.com/boardgame/822/carcassonne", "image_url": ""
+  },
+  {
+    "id": "board_wingspan", "type": "board_game", "title": "Крылья", "year": 2019,
+    "description": "Стратегия о создании заповедника, привлечении птиц и развитии цепочек действий.",
+    "genres": ["стратегия", "семейная игра"], "tags": ["природа", "птицы", "развитие", "карты", "engine building"],
+    "rating": 8.1, "popularity": 0.94, "source": "BoardGameGeek", "source_url": "https://boardgamegeek.com/boardgame/266192/wingspan", "image_url": ""
+  },
+  {
+    "id": "board_pandemic", "type": "board_game", "title": "Пандемия", "year": 2008,
+    "description": "Команда специалистов совместно сдерживает распространение болезней и ищет лекарства.",
+    "genres": ["стратегия", "кооперативная игра"], "tags": ["команда", "медицина", "планирование", "кризис", "мир"],
+    "rating": 7.6, "popularity": 0.96, "source": "BoardGameGeek", "source_url": "https://boardgamegeek.com/boardgame/30549/pandemic", "image_url": ""
+  },
+  {
+    "id": "board_7wonders", "type": "board_game", "title": "7 чудес", "year": 2010,
+    "description": "Игроки развивают древние города, строят чудеса и выбирают карты одновременно.",
+    "genres": ["стратегия", "история"], "tags": ["цивилизация", "карты", "экономика", "развитие", "соревнование"],
+    "rating": 7.7, "popularity": 0.95, "source": "BoardGameGeek", "source_url": "https://boardgamegeek.com/boardgame/68448/7-wonders", "image_url": ""
+  },
+  {
+    "id": "board_root", "type": "board_game", "title": "Root", "year": 2018,
+    "description": "Асимметричная стратегия о борьбе лесных фракций с разными правилами и целями.",
+    "genres": ["стратегия", "приключения"], "tags": ["политика", "территория", "асимметрия", "конфликт", "тактика"],
+    "rating": 8.1, "popularity": 0.92, "source": "BoardGameGeek", "source_url": "https://boardgamegeek.com/boardgame/237182/root", "image_url": ""
+  },
+  {
+    "id": "board_ticket_to_ride", "type": "board_game", "title": "Билет на поезд", "year": 2004,
+    "description": "Участники собирают карты вагонов и прокладывают железнодорожные маршруты между городами.",
+    "genres": ["семейная игра", "стратегия"], "tags": ["путешествие", "маршруты", "карты", "планирование", "соревнование"],
+    "rating": 7.4, "popularity": 0.98, "source": "BoardGameGeek", "source_url": "https://boardgamegeek.com/boardgame/9209/ticket-to-ride", "image_url": ""
+  }
+]
